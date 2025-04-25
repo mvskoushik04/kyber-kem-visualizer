@@ -16,5 +16,5 @@ A simple visualizer to demonstrate the working of the Kyber Key Encapsulation Me
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/Bhaminee-Ojha/kyber-kem-visualizer.git
+   https://github.com/mvskoushik04/kyber-kem-visualizer.git
 
