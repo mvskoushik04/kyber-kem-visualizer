@@ -58,7 +58,7 @@ st.caption("Post-Quantum Key Exchange + Visualization Demo")
 
 # Info
 with st.expander("ℹ️ About Kyber"):
-    st.markdown("Kyber is a quantum-safe key encapsulation mechanism (KEM) that resists attacks from quantum computers.")
+    st.markdown("Kyber is a post-quantum cryptographic algorithm that uses lattice-based mathematics to create secure keys. Unlike RSA or ECC, which can be broken by Shor's algorithm running on quantum computers, Kyber's security is based on the hardness of the module learning with errors (M-LWE) problem, which is believed to be resistant to both classical and quantum attacks. It was selected by NIST in 2022 as the first standardized post-quantum key encapsulation mechanism and will likely become the backbone of secure communications in the quantum era.")
 
 # Step 1: Key Generation
 st.header("🧬 Step 1: Key Generation")
@@ -149,5 +149,5 @@ if message and 'pk' in st.session_state:
 
 # Footer
 st.markdown("---")
-st.caption("This the final Results with the graphs")
+st.caption("This is the final Results with the graphs")
 
